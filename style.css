@@ -1,0 +1,69 @@
+body {
+  font-family:Oswald;
+  background-color: #fff;
+}
+
+.sliderDiv{
+  height:350px;
+  width:600px;
+  background:#fff;
+  margin:0 auto;
+  margin-top:20px;
+  border:1px solid #bbb;
+  overflow:hidden;
+}
+
+.sliderDiv img{
+  height:320px;
+  width:100%;
+}
+
+.pointers{
+  background:#fff;
+  height:30px;
+  width:100%;
+  position:relative;
+  top:-4px;
+}
+.pointers ul {
+  list-style:none;
+  padding:0px;
+  padding-left:10px;
+  position:relative;
+  top:-12px;
+}
+
+.pointers ul li {
+  height:30px;
+  margin-top:-4px;
+  border-right:1px solid #d3d3d3;
+  float:left;
+  padding-left:10px;
+  padding-right:10px;
+  font-size:20px;
+  text-align:center;
+}
+
+.pointers ul li a{
+  text-decoration:none;
+  color:grey;
+}
+
+.pointers ul li:hover {
+  background:#d3d3d3;
+}
+
+.pointers ul li:hover > a{
+  color:#000;
+}
+
+.bilgilendirme{
+  margin:0 auto;
+  text-align:Center;
+  font-size:20px;
+}
+
+.bilgilendirme a{
+  color:#ea5145;
+  text-decoration:none;
+}
